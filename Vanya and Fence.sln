@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanya and Fence", "Vanya and Fence\Vanya and Fence.csproj", "{230D1D66-D7BA-4CC5-B787-EF0F8D8BC995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{230D1D66-D7BA-4CC5-B787-EF0F8D8BC995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230D1D66-D7BA-4CC5-B787-EF0F8D8BC995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230D1D66-D7BA-4CC5-B787-EF0F8D8BC995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230D1D66-D7BA-4CC5-B787-EF0F8D8BC995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79F68EDE-D1B1-4931-8897-3E42A3CA3EBB}
+	EndGlobalSection
+EndGlobal
