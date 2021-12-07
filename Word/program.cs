@@ -7,23 +7,19 @@ namespace CodeForces
         static void Main(string[] args)
         {
             var s = Console.ReadLine().Trim();
-            var lowerS = s.ToLower();
-            var upperS = s.ToUpper();
             int lowerCounter = 0;
             int upperCounter = 0;
             for (int i = 0; i < s.Length; i++)
             {
-                if (s[i] == lowerS[i])
+                if (char.IsLower(s[i]))
                     lowerCounter++;
-                else if (s[i] == upperS[i])
+                else
                     upperCounter++;
             }
-            if (lowerCounter > upperCounter)
-                Console.WriteLine(lowerS);
-            else if (upperCounter > lowerCounter)
-                Console.WriteLine(upperS);
+            if (lowerCounter >= upperCounter)
+                Console.WriteLine(s.ToLower());
             else
-                Console.WriteLine(lowerS);
+                Console.WriteLine(s.ToUpper());
         }
     }
 }
